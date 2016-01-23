@@ -2,4 +2,6 @@
 practice in python
 
 
-1.learn how to use python to draw the graph
+1.
+graphic.py
+learn how to use python to draw the graph
