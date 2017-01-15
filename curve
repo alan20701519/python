@@ -1,0 +1,18 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+a = [0.422,0.657,0.794,0.937,1.196]
+b = [5.08,5.66,6.09,6.52,7]
+c = [0.364,0.6,0.783,0.773,1.116]
+d = [5.08,5.66,6.09,6.52,7]
+plt.figure(figsize=(8,6))
+plt.plot(c,d,"--",label="10mm",color="blue",linewidth=2,marker="o",markersize=5)
+plt.plot(a,b,label="20mm",color="red",linewidth=2,marker="o",markersize=5)
+plt.xlabel("Voltage(Volt)")
+plt.ylabel("Frequency(10^14Hz)")
+plt.title("Planck constant")
+plt.grid(True)
+plt.xlim(0.2,1.5)
+plt.ylim(5,7.2)
+plt.legend()
+plt.show()
